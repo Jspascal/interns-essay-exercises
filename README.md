@@ -6,9 +6,9 @@ This repository contains essay exercises for interns. The exercises are designed
 
 To get started with the exercises, simply clone this repository to your local machine:
 
-
+```
 git clone https://github.com/Jspascal/interns-essay-exercises.git
-
+```
 
 ## Exercises
 
