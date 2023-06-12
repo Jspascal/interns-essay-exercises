@@ -16,4 +16,4 @@ Summarize the key points of the essay and explain why understanding design patte
 The following resource may be helpful :
 - [Design Patterns for Modern Backend Development](https://www.freecodecamp.org/news/design-pattern-for-modern-backend-development-and-use-cases/amp/#repository-pattern)
 
-The objective of the course is for you to understand the advantages of design patterns.
+The objective of this essay is for you to understand the advantages of design patterns.
