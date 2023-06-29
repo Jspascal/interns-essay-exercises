@@ -23,6 +23,6 @@ You must write a test file to test those functionalities in a simple program.
 ## References
 
 - [PHP 8.1.0 Documentation](https://www.php.net/docs.php)
-- [PHP Classes and Objects](https://www.w3schools.com/php/php_classes.asp)
-- [PHP Inheritance](https://www.w3schools.com/php/php_inheritance.asp)
-- [PHP Constructors](https://www.w3schools.com/php/php_constructors.asp)
+- [PHP Classes and Objects](https://www.w3schools.com/php/php_oop_classes_objects.asp)
+- [PHP Inheritance](https://www.w3schools.com/php/php_oop_inheritance.asp)
+- [PHP Constructors](https://www.w3schools.com/php/php_oop_constructor.asp)
