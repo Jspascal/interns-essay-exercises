@@ -7,6 +7,7 @@ In this exercise, you will extend the previous mini banking system with PHP OOP 
 - A method called recap() that prints the name, address and phone number of the client, followed by a summary of each account's balance and type. For example:
 
 
+```txt
 Name: Alice
 Address: Bonamoussadi Sable, Douala
 Phone: +237 694765442
@@ -14,6 +15,7 @@ Accounts:
 - Alice_1: Checking account with 107300 FCFA
 - Alice_2: Saving account with 541700 FCA and 2% interest rate
 - Alice_3: Checking account with 53200 FCFA
+```
 
 
 You will also need to modify the Account class to have a new property called $identifier that represents the unique identifier of the account. The constructor of the Account class should take an additional parameter for the identifier and assign it to the property. The __toString() method of the Account class should also include the identifier in the output.
