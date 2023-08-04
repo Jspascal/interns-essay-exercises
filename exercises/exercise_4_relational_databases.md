@@ -5,10 +5,10 @@ Relational database is a type of database that stores and organizes data in tabl
 
 Here are some links to tutorials and articles that explain relational algebra and relational database in more detail:
 
-- [Relational Algebra | Tutorialspoint](^1^) - This tutorial covers the basic operations of relational algebra, such as select, project, union, set difference, Cartesian product, rename, theta join, natural join, division, and assignment.
-- [Relational Database Design | Coursera](^2^) - This course teaches you how to design a relational database from scratch, using entity relationship diagrams (ERDs), relational models, normalization rules, and SQL commands.
-- [Database design basics - Microsoft Support](^3^) - This article provides guidelines for planning a desktop database using Access. It explains how to divide the information into tables and columns, specify primary keys, create table relationships, refine the design, and apply the normalization rules.
-- [SQL Syntax - W3Schools](^4^) - This tutorial introduces you to the SQL syntax, such as keywords, clauses, statements, expressions, predicates, operators, and comments. It also shows you how to use some of the most important SQL commands, such as SELECT, INSERT, UPDATE, DELETE, CREATE, ALTER, DROP, and JOIN.
+- [Relational Algebra | Tutorialspoint](https://www.tutorialspoint.com/dbms/relational_algebra.htm) - This tutorial covers the basic operations of relational algebra, such as select, project, union, set difference, Cartesian product, rename, theta join, natural join, division, and assignment.
+- [Relational Database Design | Coursera](https://www.coursera.org/learn/relational-database-design) - This course teaches you how to design a relational database from scratch, using entity relationship diagrams (ERDs), relational models, normalization rules, and SQL commands.
+- [Database design basics - Microsoft Support](https://support.microsoft.com/en-gb/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5) - This article provides guidelines for planning a desktop database using Access. It explains how to divide the information into tables and columns, specify primary keys, create table relationships, refine the design, and apply the normalization rules.
+- [SQL Syntax - W3Schools](https://www.w3schools.com/sql/sql_syntax.asp) - This tutorial introduces you to the SQL syntax, such as keywords, clauses, statements, expressions, predicates, operators, and comments. It also shows you how to use some of the most important SQL commands, such as SELECT, INSERT, UPDATE, DELETE, CREATE, ALTER, DROP, and JOIN.
 
 Now that you have some resources to learn from, let's try to create an exercise for your interns. The exercise will consist of three parts: designing an ERD for a blog application, creating a SQL file to create the database based on the ERD, and writing some SQL queries to perform various tasks on the database.
 
