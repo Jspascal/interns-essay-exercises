@@ -15,7 +15,13 @@ git clone https://github.com/Jspascal/interns-essay-exercises.git
 The following exercises are available in this repository:
 
 1. Writing an essay about MVC design pattern
-2. [Add more exercises here]
+2. Write an essay about design patterns: Repository, Dependency Injection, Observer and Decorator
+3. 2024 Update
+   * Software Development Lifecycle
+   * System Design
+   * Algorithm And Data Structure
+   * Databases
+   * Final Exercise
 
 ## How to Complete an Exercise
 
