@@ -1,4 +1,4 @@
-Le système de conception est le processus de définition des aspects des aspects d’un système /ou un ensemble de produits. Son objectif vise à répondre aux exigences particulières d’une entreprise, permet la planification, la structuration minutieuse des composants logiciels. Les protocoles et d’autres concepts jouent un rôle important.
+Le système de conception est le processus de définition des aspects d’un système /ou un ensemble de produits. Son objectif vise à répondre aux exigences particulières d’une entreprise, permet la planification, la structuration minutieuse des composants logiciels. Les protocoles et d’autres concepts jouent un rôle important.
 Nous définissons alors un protocole comme l’ensemble des règles qu’utilisent les appareils pour communiquer entre eux à travers un réseau. Il existe plusieurs protocoles nous allons nous attarder sur les protocoles de communications et les protocoles réseaux.
 
 	Protocoles de communication ils sont indispensable pour assurer une interaction fluide. Parmi les types de protocoles de communication couramment utilisé on retrouve :
