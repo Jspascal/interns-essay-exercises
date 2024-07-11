@@ -1,79 +1,85 @@
-##  Description Exercice
+En anglais SDLC(Software Development Life Cycle)est un cadre utiliser pour planifier,developper,tester et deployer des systemes logiciels en d'autre terme c'est un systeme de creation de logiciel.
+  il comprend differents phase a savoir:
+  -phase de l'analyse
+  -phase de conception
+  -phase de tests
+  -phase d'integration 
+  -phase du deploiement
+  -phase de maintenance.
 
-Ecrire un essaies sur les modele  de cycle de vie en developpement logiciel: Modele V, Cascade, Agile, et Spirale. l'essaie doit etre structuré: 
+  nous distinguons pluisieurs types de modele du SDLC: Modele en v, Modele en cascade, Modele agile et le modele spirale.
 
-### Introduction
+              1-Modele en v
+    il s'effectue en 2 phase a savoir la phase descendante et la phase ascendante.on l'appelle encore le modele de la verification et de la validation ses differentes etapes sont: collecte et l'analyse des exigences,conception(conception systeme et la conception detaille),la mise en oeuvre,les tests,le deploiement et la maintenance.
 
-Le cycle de vie d'un logiciel est l'ensemble d'etape allant de la creation du logiciel jusqua sa fin de vie.
-Le cycle de vie d'un logiciel est carractérisés par 5 parties:l'analyse,la conception, le developpement, le test et la mise a jour du logiciel.
+    les phases du modele en v sont:
+    Planification et Analyse des besoins
+    Specification fonctionnelle
+    conception systeme et architecture.
+    conception detaille
+    Implementation /codage
+    Test unitaire
+    Test d'integrite
+    Test systeme
+    Test d'acceptation
 
-### Corps
+            AVANTAGE
+        - il est discipline
+        - simple et facile a comprendre
+        -il met l'accent sur les tests
+        -permet une meilleure communication
 
-On distingue 4 modeles de cycles de vie logiciel: modele en v, modele en cascade, modele en spiral, model agile
+            INCONVENIENTS
+        -presente des risque eleveset une insertitude
+        -pas bon pour les projets complexes
+        -inflexibilite(il est lineaire et sequentiel.)
+        -dependance excessive a la documentation
 
-1. **Modele en V**
+                2-Modele en cascade
+    encore appelle waterfall etant une approche lineaire et sequentielle permettant la resolution d'un probleme. son utilisation est de telle sorte que la realisation de chaque etapes depend de l'etape precedente. comme petit exemple: pour realiser la construction d'une maison il est indispensable de construire ses fondations avant de pouvoir commencer la construction des murs et ainsi de suite....
+     Ses etapes sont les suivantes: definition des besoins,analyse,conception ,realisation, controle et validation, mise en service
 
-   - **Explication**:Est un modele de realisation de projets comprenant un flux qui represente la partie d'analyse du projet jusqua sa realisation et un flux ascendant representant  le test du logiciel jusqua son acceptation par le client.
-   - **How it Works**: 
-   - **Examples**: Provide scenarios where the V-Model is particularly useful, such as in projects with well-defined requirements.
-   - **Avantages**:
-   -la spécification des besoins des la debut facilite le projet
-   -facile a mettre en oeuvre
-   - **Inconvenients**:
-   -lorsque les besoins du client change ou sont mal exprimés, cela rend compliqué le projet
+       les phases du modele en cascade sont:
+       exigences
+       conception 
+       mise en oeuvre/ codage
+       test
+       entretien
 
-2. **Modele en Cascade**
+            AVANTAGE
+        -Documentation complete
+        -stabilite de la portee du projet
+        
+            INCOVENIENTS
+        -flexibilite limitee
+        -inadaptee aux projets en evolution
 
-   - **Explication**: Le modele en cascade est un mode d'emploie du developpemnt logiciel qui se caracterise par la structuration des etapes de developpemnt de tels sortes que si une tache n'est pas terminé, lors ne peut pas passé a la tache suivante.
-   - **fonctionnement**:  les etapes sont bien strusturé et ordonnées lorsque une etapes est fini l'on va a l'etape suivante.
-   - **Examples**: Provide examples of projects where the Waterfall Model is effective, such as in construction or manufacturing.
-   - **Avantages**: 
-   -simple
-   -on test a plusieurs reprises
-   - **Inconvénients**:
-    - la detection d'une erreur  a une partie oblige a revérifier les etapes precedente a la partie ou l'erreur a été detecté.
-   -lors ne peut passer a une nouvelle tache si les taches précedente n'ont pas été bouclées.
-   -temps d'attendes long
+                3-Methode agile(manifeste Agile)
+    est une methode de gestion de projet on distingue la methode kaban,scrum,extreme programming.
+        il base son principe sur 4 valeurs:
+        -les individus et les interactions
+        -les logiciels operationnels
+        -la collaboration avec les clients
+        -l'adaptation aux changements
+        
+        METHODE AGILE SCRUM
+     appelle encore en francais "mêlé" est un cadre qui aide les equipes a gerer leurs travails. il est frequement utilises par les equipes de developpements logiciels.
 
-3. **Agile Methodology**
+        pour la gestion de projets nous avons besoins des sprints. 
+     un sprint est une periode de temps definie ou tout le travail doit etre effectuee.la planification et execution des sprints scrum a travers l'effet de la collaboration entre le product owner,le scrum master et l'equipe de developpement.
 
-   - **Explanation**: Modele de gestion de projet qui consiste a diviisés nos projets en petit petit obectifs facilement réalisable
-   - **Fonctionnement**:  Il existe plusieurs facon d'appliquer la methode agile : Scrum,Kanban,L'extreme programming.
-   *la methode agile son fonctionnement est caracterisé par la segmentation du projets en petite petite taches:sprint realisable en une semaine ou un mois.
-   Le sprint: c'est la segmentation du projet en petite tache realisable.
-   daily stand-up: reunion pour prendre des decision pour atteindre facilement le sprint goal.
+     -le product owner est decrit l'objectif en realisant la vision du projet. il maintient l'inventaire des taches a realiser(backlog).
+     -le scrum master (coachou leader) il s'assure que les equipes adherent aux principes scrum
+     -l'equipe de developpement constituee des designers,programmeurs et ingenieurs il est responsable du travail de creation du projet
+      
+            AVANTAGE
+        -le produit peut etre modifier a chaque moment
+        -Les développements sont divisés en plusieurs parties et sont effectués en cycles itératifs rapides
+        -assure des livraisons de haute qualites
+        -accroitre la sastifaction des utilisateurs.
 
-
-   Il ya 3 intervenants dans la methodologie SCRUM:
-   -Scrum master: Il veille a ce que la methodologie scrum soit bien appliqué , il n'est pas le chef de projet
-   -product owner: c'est lui qui maitrise le projet,il met a jour le backlog du projet .
-   -L'equipe qui realiste le projet: l'equipe peut etre constitué des graphiste,developpeur...
-
-   Detail the Agile process, including sprints, daily stand-ups, and continuous integration. 
-   - **Examples**: Provide scenarios where Agile is beneficial, such as in software startups or projects with dynamic requirements.
-   - **Advantages**: 
-   -flexible
-   -facilite le travail en equipe
-   -permet le respect des delais
-   -permet la satisfaction du client
-   -permet la livraison des projets de qualités
-
-   - **Disadvantages**: 
-
-4. **Modele Spiral**
-
-   - **Explication**: Mode d'emploie du developpement logiciel caracterise par la repetion des actions jusqua l'obtention des resultats souhaité.
-   - **Fonctionnent**: fonctionne de manère iterative.On repete les actions jusqua obtention de l'objectif souhaité.
-   - **Examples**: Provide examples of projects where the Spiral Model is effective, such as large-scale software systems with high risks.
-   - **Advantages**: 
-   -flexible
-   -verification constante du projet
-   -ici on  peut faire intervenir les utilisateurs plutot
-   - **Inconvénients**:
-    - ne fonctionne pas sur les petits projets ayant les difficultés connues
-   -moins de test que dans le modele en cascade
-   -la prise de decision fréquente cause une perte de temps excessive
-
-### Conclusion
-
-En somme ,un cycle de vie bien géré permet de produire des logiciels robustes, repondant aux besoins de l'utilisateur et utilisable a long terme.La comprehension de chaque parties du cycle de vie du logiciel  facilite la maintenance du logiciel sur le long termes.
+            INCONVENIENTS
+        -La plupart des personnes ne comprennent pas ce que signifie être Agile. 
+        -La documentation d’un produit agile est, généralement, moins travaillée et détaillée.
+        -La culture Agile est basée sur l’idée que les équipes ne sauront pas à quoi ressemblera leur résultat final. 
+        -Les méthodologies Agiles fonctionnent mieux dans des petites ou moyennes entrepriseS.
