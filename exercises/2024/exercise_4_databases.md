@@ -55,3 +55,71 @@ To help you with your essay, you may find the following resources useful:
 - [Understanding Databases: Their Importance in the Digital Age](https://dev.to/bshadmehr/understanding-databases-their-importance-in-the-digital-age-bfi)
 
 The objective of this essay is for you to understand the critical role of different database types in modern applications and how they contribute to efficient data management and performance optimization.
+
+## Application
+
+### Part 1: Schema Design (MySQL)
+#### Tables:
+Here's a list of common tables found in an HR schema:
+1. DEPARTMENTS: Stores information about departments within the company.
+    * Columns:
+        * department_id (INT, PRIMARY KEY) - Unique identifier for the department.
+        * department_name (VARCHAR(50)) - Name of the department.
+        * location_id (INT, FOREIGN KEY REFERENCES LOCATIONS(location_id)) - Foreign key referencing a LOCATIONS table (optional).
+2. EMPLOYEES: Stores employee information.
+    * Columns:
+        * employee_id (INT, PRIMARY KEY) - Unique identifier for the employee.
+        * first_name (VARCHAR(50)) - Employee's first name.
+        * last_name (VARCHAR(50)) - Employee's last name.
+        * email (VARCHAR(100)) - Employee's email address.
+        * job_id (INT, FOREIGN KEY REFERENCES JOBS(job_id)) - Foreign key referencing a JOBS table.
+        * manager_id (INT, FOREIGN KEY REFERENCES EMPLOYEES(employee_id)) - Foreign key referencing the manager (optional).
+        * department_id (INT, FOREIGN KEY REFERENCES DEPARTMENTS(department_id)) - Foreign key referencing the department.
+        * hire_date (DATE) - Date the employee was hired.
+        * salary (DECIMAL(10,2)) - Employee's salary.
+3. JOBS: Stores information about job titles and their descriptions.
+    * Columns:
+        * job_id (INT, PRIMARY KEY) - Unique identifier for the job title.
+        * job_title (VARCHAR(50)) - Title of the job.
+        * min_salary (DECIMAL(10,2)) - Minimum salary for the job (optional).
+        * max_salary (DECIMAL(10,2)) - Maximum salary for the job (optional).
+4. LOCATIONS (Optional): Stores information about the physical locations of departments (if applicable).
+    * Columns:
+        * location_id (INT, PRIMARY KEY) - Unique identifier for the location.
+        * street_address (VARCHAR(100)) - Street address of the location.
+        * city (VARCHAR(50)) - City where the location is situated.
+        * state_province (VARCHAR(50)) - State or province of the location (optional).
+        * postal_code (VARCHAR(20)) - Postal code of the location.
+        * country_id (INT, FOREIGN KEY REFERENCES COUNTRIES(country_id)) - Foreign key referencing a COUNTRIES table (optional).
+5. COUNTRIES (Optional, for LOCATIONS table): Stores information about countries (if applicable).
+    * Columns:
+        * country_id (INT, PRIMARY KEY) - Unique identifier for the country.
+        * country_name (VARCHAR(50)) - Name of the country.
+        * region_id (INT, FOREIGN KEY REFERENCES REGIONS(region_id)) - Foreign key referencing a REGIONS table (optional).
+6. REGIONS (Optional, for COUNTRIES table): Stores information about geographical regions (if applicable).
+    * Columns:
+        * region_id (INT, PRIMARY KEY) - Unique identifier for the region.
+        * region_name (VARCHAR(50)) - Name of the geographical region.
+#### Relationships:
+The tables in an HR schema are typically linked through foreign keys. Here's a basic explanation of the relationships:
+* An EMPLOYEE belongs to one DEPARTMENT. (One-to-Many relationship)
+* An EMPLOYEE has one JOB. (One-to-Many relationship)
+* An EMPLOYEE can have one MANAGER who is also an EMPLOYEE. (Many-to-One relationship)
+* A DEPARTMENT can be located in one LOCATION (One-to-One or One-to-Many relationship depending on the business need).
+* A LOCATION belongs to one COUNTRY (One-to-Many relationship).
+* A COUNTRY belongs to one REGION (One-to-Many relationship).
+
+
+### Part 2: Data Exploration
+Here are 10 interesting queries you can run on the migrated HR database in MySQL:
+1. Employees with High Salaries: Find all employees with a salary greater than a specific amount (e.g., $10,000).
+2. Department Sizes: Count the number of employees in each department.
+3. Manager Information: List all employees and their respective managers' names (involving a JOIN between EMPLOYEES and DEPARTMENTS tables).
+4. Job Titles and Departments: Display a list of job titles and the corresponding departments they belong to.
+5. Recent Hires: Identify employees hired within the last six months (using date comparison).
+6. Average Salary per Department: Calculate the average salary for each department.
+7. Employees with Specific Skills: (Assuming a SKILLS table exists) Find employees possessing a particular skill set (using a JOIN with the SKILLS table).
+8. Employees Without Managers: List employees who don't have a designated manager assigned (using a filtering condition).
+9. Employee Distribution by Job Title: Group employees by their job title and count the number of employees in each category.
+10. Employees Nearing Retirement Age: Identify employees close to retirement age (using date calculations on the hire date).
+
