@@ -63,11 +63,14 @@ The objective of this essay is for you to understand the critical role of differ
 Here's a list of common tables found in an HR schema:
 1. DEPARTMENTS: Stores information about departments within the company.
     * Columns:
+      ```
         * department_id (INT, PRIMARY KEY) - Unique identifier for the department.
         * department_name (VARCHAR(50)) - Name of the department.
         * location_id (INT, FOREIGN KEY REFERENCES LOCATIONS(location_id)) - Foreign key referencing a LOCATIONS table (optional).
+      ```
 2. EMPLOYEES: Stores employee information.
     * Columns:
+      ```
         * employee_id (INT, PRIMARY KEY) - Unique identifier for the employee.
         * first_name (VARCHAR(50)) - Employee's first name.
         * last_name (VARCHAR(50)) - Employee's last name.
@@ -77,29 +80,38 @@ Here's a list of common tables found in an HR schema:
         * department_id (INT, FOREIGN KEY REFERENCES DEPARTMENTS(department_id)) - Foreign key referencing the department.
         * hire_date (DATE) - Date the employee was hired.
         * salary (DECIMAL(10,2)) - Employee's salary.
+      ```
 3. JOBS: Stores information about job titles and their descriptions.
     * Columns:
+      ```
         * job_id (INT, PRIMARY KEY) - Unique identifier for the job title.
         * job_title (VARCHAR(50)) - Title of the job.
         * min_salary (DECIMAL(10,2)) - Minimum salary for the job (optional).
         * max_salary (DECIMAL(10,2)) - Maximum salary for the job (optional).
+      ```
 4. LOCATIONS (Optional): Stores information about the physical locations of departments (if applicable).
     * Columns:
+      ```
         * location_id (INT, PRIMARY KEY) - Unique identifier for the location.
         * street_address (VARCHAR(100)) - Street address of the location.
         * city (VARCHAR(50)) - City where the location is situated.
         * state_province (VARCHAR(50)) - State or province of the location (optional).
         * postal_code (VARCHAR(20)) - Postal code of the location.
         * country_id (INT, FOREIGN KEY REFERENCES COUNTRIES(country_id)) - Foreign key referencing a COUNTRIES table (optional).
+      ```
 5. COUNTRIES (Optional, for LOCATIONS table): Stores information about countries (if applicable).
     * Columns:
+      ```
         * country_id (INT, PRIMARY KEY) - Unique identifier for the country.
         * country_name (VARCHAR(50)) - Name of the country.
         * region_id (INT, FOREIGN KEY REFERENCES REGIONS(region_id)) - Foreign key referencing a REGIONS table (optional).
+      ```
 6. REGIONS (Optional, for COUNTRIES table): Stores information about geographical regions (if applicable).
     * Columns:
+      ```
         * region_id (INT, PRIMARY KEY) - Unique identifier for the region.
         * region_name (VARCHAR(50)) - Name of the geographical region.
+      ```
 #### Relationships:
 The tables in an HR schema are typically linked through foreign keys. Here's a basic explanation of the relationships:
 * An EMPLOYEE belongs to one DEPARTMENT. (One-to-Many relationship)
