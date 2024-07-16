@@ -46,3 +46,26 @@ Une base de donnees permet de structurer,de stocker et interroger les donnees de
   INCONVENIENTS
   -complexite
   cout potentiel
+
+  PARTIE2
+  1- SELECT EMPLOYEES(employee_id,first_name,last_name,email)
+  FROM EMPLOYEES
+  WHERE salaire > 10000
+
+  2- SELECT departement_id
+  COUNT(*) AS num_employee 
+  FROM EMPLOYEE
+  GROUP BY departement_id
+
+  3- SELECT e employe_id AS e last_name, e first_name, e email AS d departement_id, d departement_name
+  FROM EMPLOYEES e
+  LEFT JOIN DEPARTEMENT d ON m manager_id = e employee_id
+
+  4- SELECT e  job_title, d departement_name
+  FROM EMPLOYEES e
+  JOIN DEPARTEMENTS ON e departement_id = d departement_id
+  GROUP BY e job_title, d departement_name 
+
+5- SELECT employee_id, first_name, last_name, hire_date
+FROM EMPLOYEES
+GROUP BY 
