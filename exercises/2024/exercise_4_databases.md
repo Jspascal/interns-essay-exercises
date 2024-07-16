@@ -134,4 +134,3 @@ Here are 10 interesting queries you can run on the migrated HR database in MySQL
 8. Employees Without Managers: List employees who don't have a designated manager assigned (using a filtering condition).
 9. Employee Distribution by Job Title: Group employees by their job title and count the number of employees in each category.
 10. Employees Nearing Retirement Age: Identify employees close to retirement age (using date calculations on the hire date).
-
