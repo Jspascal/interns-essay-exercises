@@ -7,12 +7,12 @@ En anglais SDLC(Software Development Life Cycle)est un cadre utiliser pour plani
   -phase du deploiement
   -phase de maintenance.
 
-  nous distinguons pluisieurs types de modele du SDLC: Modele en v, Modele en cascade, Modele agile et le modele spirale.
+  nous distinguons pluisieurs types de mmethode du SDLC: mMethode en v, mMethode en cascade, mMethode agile et le methode spirale.
 
-              1-Modele en v
+              1-mMethode en v
     il s'effectue en 2 phase a savoir la phase descendante et la phase ascendante.on l'appelle encore le modele de la verification et de la validation ses differentes etapes sont: collecte et l'analyse des exigences,conception(conception systeme et la conception detaille),la mise en oeuvre,les tests,le deploiement et la maintenance.
 
-    les phases du modele en v sont:
+    les phases de la mmethode en v sont:
     Planification et Analyse des besoins
     Specification fonctionnelle
     conception systeme et architecture.
@@ -35,11 +35,11 @@ En anglais SDLC(Software Development Life Cycle)est un cadre utiliser pour plani
         -inflexibilite(il est lineaire et sequentiel.)
         -dependance excessive a la documentation
 
-                2-Modele en cascade
+                2-mMethode en cascade
     encore appelle waterfall etant une approche lineaire et sequentielle permettant la resolution d'un probleme. son utilisation est de telle sorte que la realisation de chaque etapes depend de l'etape precedente. comme petit exemple: pour realiser la construction d'une maison il est indispensable de construire ses fondations avant de pouvoir commencer la construction des murs et ainsi de suite....
      Ses etapes sont les suivantes: definition des besoins,analyse,conception ,realisation, controle et validation, mise en service
 
-       les phases du modele en cascade sont:
+       les phases de la mmethode en cascade sont:
        exigences
        conception 
        mise en oeuvre/ codage
@@ -55,7 +55,7 @@ En anglais SDLC(Software Development Life Cycle)est un cadre utiliser pour plani
         -inadaptee aux projets en evolution
 
                 3-Methode agile(manifeste Agile)
-    est une methode de gestion de projet on distingue la methode kaban,scrum,extreme programming.
+    est une methode de gestion de projet on distingue la methode kanban,scrum,extreme programming.
         il base son principe sur 4 valeurs:
         -les individus et les interactions
         -les logiciels operationnels
