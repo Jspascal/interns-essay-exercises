@@ -10,8 +10,7 @@ Le  modèle représente les données et la logique metier de l'application. Il e
 - #### La Vue  
 La vue est responsable de l'affichage de données et de l'interface utilisateur de l'application. Elle est généralement implémentée sous forme de gabarits ou de pages HMTL dans lesquels sont intégrées les données récupérées par le modèle.
  La vue est créee de manière indépendante du modèle , ce qui le rend personnalisable (apparence et style de l'application) sans affecter la logique metier.  
-
-- #### Le Controleur  
+  
 Le controleur est responsable de la gestion des interactions entre l'utilisateur et l'application. Il recoit les demandes de l'utilisateur, interroge le modèle pour récuperer les données nécessaires et renvoie ces données à la vue pour les afficher.Il s'implemente comme une série de fonctions ou de methodes qui sont appélées en reponse aux actions de l'utilisateur.  
 
 
