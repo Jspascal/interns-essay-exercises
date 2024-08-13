@@ -57,3 +57,36 @@ To help you with your essay, you may find the following resources useful:
 - [Spiral Model](https://www.tutorialspoint.com/sdlc/sdlc_spiral_model.htm)
 
 The objective of this essay is for you to understand the advantages and disadvantages of different software development life cycles and how they can be applied to various types of projects.
+### Introduction
+  Softtware development life cycle is a structured process that is used to design, develop and test good quality software. In a rapidly evolving world of technology, software development has become an integral part of our daily lifes.From the apps on our smartphones to complex business system, software is the drivig force behing innovation and effficiency. Behind every successful piece of software lies a well defined process which is a crucial aspect that directly influences the sucess and sustainability of any software project; provide structure clarity, and control throughout the entire development process, enabling businesses to achieve their goals and meet the needs of their users.
+  
+
+  ### body
+   The four life cycles are as shown below
+
+   1. **V-model**
+ The V-model is a type od SDLC MODEL inwhich the processes is executed sequentially in a V-shape. It is based on the association of a testing phase for each corresponding development stage.
+ Sequential nature is the standard of having a regular sequence e.g counting numbers 1,2,3,4 etc 
+ Each development phase is directly associated with it's testing phase in the sense that the next phase starts only after completing the previous phase.
+ The V-model stages are as follows :
+ 1.Requirement gathering and analysis:
+ Here the customers requirement for the software are gathered and analysed to determine the scope of the project
+ 2.Design:
+ Here the software architecture and design are developed including high and detailed design
+ 3.Implementation:
+ Here the software is built based on the design
+ 4.Testing:
+ here the software is tested to see if it meets the customer's requirement and if it is of high quality.
+ Verification involves static analysis technique which is done without executing the code to see if specified requirements are meet.
+ validation involves dynamic analysis technique i.e functional and functional and the testing is done by executing the code
+ An example of scenario where V-model can be used are project with well defined requirements like industries with strict regulatory standards(e.g aerospacial,medicale,finance) benfit from documentation and emphasis as it helps ensure compliances.
+ **Advantages:**
+ -V-Model is used for small projects where project requirements are clear.
+ -Clear and Structured Process: The V-Model provides a clear and structured process for software development, making it easier to understand and follow.
+ -Emphasis on Testing: The V-Model places a strong emphasis on testing, which helps to ensure the quality and reliability of the software.
+ **Disadvantages**
+ -It is not suitable for projects where requirements are not clear and contain a high risk of changing.
+ -Inflexibility: The V-Model is a linear and sequential model, which can make it difficult to adapt to changing requirements or unexpected events.
+ -It is not good for complex and object-oriented projects.
+
+ **waterfall model**

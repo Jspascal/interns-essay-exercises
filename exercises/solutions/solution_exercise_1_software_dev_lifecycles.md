@@ -83,3 +83,4 @@ En anglais SDLC(Software Development Life Cycle)est un cadre utiliser pour plani
         -La documentation d’un produit agile est, généralement, moins travaillée et détaillée.
         -La culture Agile est basée sur l’idée que les équipes ne sauront pas à quoi ressemblera leur résultat final. 
         -Les méthodologies Agiles fonctionnent mieux dans des petites ou moyennes entrepriseS.
+        
